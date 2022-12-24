@@ -1,0 +1,1250 @@
+* {
+font-family:Bahnschrift, Calibri, Arial;
+}
+
+body {
+    height: 100%;
+    width: 0%;
+    margin: 0%;
+    padding: 50% 50%;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #736b5b 50%, #a69b85);
+}
+/*//ON-OFF-CLEAR*/
+.on {
+    background: radial-gradient(#09ab21, #0ad128)
+}
+
+.off {
+    background-color: #bbb;
+}
+
+.clear {}
+
+/*//IN-OUT*/
+.in {
+    z-index: 0;
+}
+
+/*//OPTIONS*/
+/*//#//OPTIONS MENU OFF*/
+.options_menu_off {
+    height: 5%;
+    width: 5%;
+    top: 15%;
+    left: 2%;
+    margin: 0%;
+    border-radius: 30%;
+    position: absolute;
+    display: inline-block;
+    border-style: solid;
+    border-color: rgba(40, 62, 62, .5);
+    border-width: 10%;
+}
+
+.options_on {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//#//OPTIONS MENU ON*/
+.options_menu_on {
+    height: 45%;
+    width: 20%;
+    top: 15%;
+    left: 2%;
+    margin: 0%;
+    border-radius: 30%;
+    position: absolute;
+    display: inline-block;
+    border-style: solid;
+    border-color: rgba(40, 62, 62, .5);
+    border-width: 10%;
+    background-color: #4d4344;
+}
+
+.options_off {
+    height: 10%;
+    width: 15%;
+    top: 5%;
+    left: 65%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//#//OPTIONS*/
+/*//#OPTION 1*/
+#option_1 {
+    height: 12.5%;
+    width: 65%;
+    top: 25%;
+    left: 15%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//#OPTION 2*/
+#option_2 {
+    height: 12.5%;
+    width: 65%;
+    top: 42.5%;
+    left: 15%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//#OPTION 3*/
+#option_3 {
+    height: 12.5%;
+    width: 65%;
+    top: 60%;
+    left: 15%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//#//MINIMIZE*/
+/*//#MINIMIZE 1*/
+#minimize_1 {
+    height: 5%;
+    width: 10%;
+    top: 65%;
+    left: 2%;
+    margin: 0%;
+    position: absolute;
+    border-style: solid;
+    border-color: #4d4344;
+    border-width: 10%;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+.minimize_1 {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    border-radius: 30%;
+    position: absolute;
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//#MINIMIZE 2*/
+#minimize_2 {
+    height: 5%;
+    width: 10%;
+    top: 72%;
+    left: 2%;
+    margin: 0%;
+    position: absolute;
+    border-style: solid;
+    border-color: #4d4344;
+    border-width: 10%;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+.minimize_2 {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    border-radius: 30%;
+    position: absolute;
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//#MINIMIZE 1*/
+#minimize_3 {
+    height: 5%;
+    width: 10%;
+    top: 79%;
+    left: 2%;
+    margin: 0%;
+    position: absolute;
+    border-style: solid;
+    border-color: #4d4344;
+    border-width: 10%;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+.minimize_3 {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    border-radius: 30%;
+    position: absolute;
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//#KEYBOARD*/
+/*//##KEYBOARD MAIN*/
+#keyboard_main {
+    height: 35%;
+    width: 20%;
+    top: 54%;
+    left: 70%;
+    margin: 0%;
+    border-radius: 30%;
+    position: absolute;
+    display: inline-block;
+    border-style: solid;
+    border-color: rgba(40, 62, 62, .5);
+    border-width: 10%;
+    background-color: #393E3C;
+}
+
+/*//##KEYBOARD MAIN HEADER*/
+#keyboard_main_header {
+    height: 98%;
+    width: 98%;
+    top: 1%;
+    left: 1%;
+    margin: 0%;
+    border-radius: 32%;
+    position: absolute;
+    display: inline-block;
+    background-color: #4d4344;
+}
+
+/*//##KEYBOARD OFF*/
+#keyboard_off {
+    height: 10%;
+    width: 15%;
+    top: 5%;
+    left: 65%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##KEYBOARD MINIMIZE*/
+#keyboard_min {
+    height: 10%;
+    width: 15%;
+    top: 5%;
+    left: 47.5%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##KEYBOARD CENTER*/
+#keyboard_center {
+    height: 10%;
+    width: 15%;
+    top: 5%;
+    left: 30%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##KEYBOARD 1*/
+#keyboard_1 {
+    height: 14%;
+    width: 15%;
+    top: 22.5%;
+    left: 22.5%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##KEYBOARD 2*/
+#keyboard_2 {
+    height: 14%;
+    width: 15%;
+    top: 22.5%;
+    left: 42.5%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##KEYBOARD 3*/
+#keyboard_3 {
+    height: 14%;
+    width: 15%;
+    top: 22.5%;
+    left: 62.5%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##KEYBOARD 4*/
+#keyboard_4 {
+    height: 14%;
+    width: 15%;
+    top: 42.5%;
+    left: 22.5%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##KEYBOARD 5*/
+#keyboard_5 {
+    height: 14%;
+    width: 15%;
+    top: 42.5%;
+    left: 42.5%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##KEYBOARD 6*/
+#keyboard_6 {
+    height: 14%;
+    width: 15%;
+    top: 42.5%;
+    left: 62.5%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##KEYBOARD 7*/
+#keyboard_7 {
+    height: 14%;
+    width: 15%;
+    top: 62.5%;
+    left: 22.5%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##KEYBOARD 8*/
+#keyboard_8 {
+    height: 14%;
+    width: 15%;
+    top: 62.5%;
+    left: 42.5%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##KEYBOARD 9*/
+#keyboard_9 {
+    height: 14%;
+    width: 15%;
+    top: 62.5%;
+    left: 62.5%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##KEYBOARD 0*/
+#keyboard_0 {
+    height: 14%;
+    width: 15%;
+    top: 82.5%;
+    left: 42.5%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//#SCREEN*/
+/*//##SCREEN MAIN*/
+#screen_main {
+    height: 35%;
+    width: 26.5%;
+    top: 12.5%;
+    left: 70%;
+    margin: 0%;
+    border-radius: 30%;
+    position: absolute;
+    display: inline-block;
+    border-style: solid;
+    border-color: rgba(40, 62, 62, .5);
+    border-width: 10%;
+    background-color: #393E3C;
+}
+
+/*//##SCREEN MAIN HEADER*/
+#screen_main_header {
+    height: 98%;
+    width: 98%;
+    top: 1%;
+    left: 1%;
+    margin: 0%;
+    border-radius: 32%;
+    position: absolute;
+    display: inline-block;
+    background-color: #4d4344;
+}
+
+/*//##SCREEN OFF*/
+#screen_off {
+    height: 10%;
+    width: 10%;
+    top: 5%;
+    left: 70%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##SCREEN MINIMIZE*/
+#screen_min {
+    height: 10%;
+    width: 10%;
+    top: 5%;
+    left: 57.5%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##SCREEN CENTER*/
+#screen_center {
+    height: 10%;
+    width: 10%;
+    top: 5%;
+    left: 45%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//COUNTER*/
+#counter_main {
+    height: 35%;
+    width: 26.5%;
+    top: 32.5%;
+    left: 36.75%;
+    margin: 0%;
+    border-style: solid;
+    border-color: rgba(40, 62, 62, .5);
+    border-width: 10%;
+    border-radius: 30%;
+    display: inline-block;
+    background-color: #4d4344;
+    position: absolute;
+}
+
+#counter_main_header {
+    height: 95%;
+    width: 96%;
+    top: 1.5%;
+    left: 1%;
+    margin: 0%;
+    border-style: solid;
+    border-color: rgba(100, 100, 100, .5);
+    border-width: 10%;
+    border-radius: 32%;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .7);
+    position: absolute;
+}
+
+/*//#CONFIGURATION*/
+/*//##COUNTER OFF*/
+#counter_off {
+    height: 5%;
+    width: 5%;
+    top: 3%;
+    left: 70%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##COUNTER MINIMIZE*/
+#counter_min {
+    height: 5%;
+    width: 5%;
+    top: 3%;
+    left: 63%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//##COUNTER CENTER*/
+#counter_center {
+    height: 5%;
+    width: 5%;
+    top: 3%;
+    left: 55.5%;
+    margin: 0%;
+    position: absolute;
+    border-radius: 30%;
+    color: rgba(62, 30, 30, 1);
+    font-family:Bahnschrift SemiBold, Calibri, Arial;
+    background-color: #bbb;
+}
+
+/*//#NUMBER DISPLAY*/
+.body_inside {
+    height: 15%;
+    width: 18%;
+    top: 35%;
+    left: 36%;
+    margin: 0%;
+    border-style: solid;
+    border-color: rgba(40, 62, 62, .5);
+    border-width: 10%;
+    border-radius: 5%;
+    display: inline-block;
+    background-color: #4d4344;
+    position: absolute;
+}
+
+.body_inside .zero {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left 0%;
+    clip-path: polygon(6% 53%, 7% 67%, 8% 73%, 11% 81%, 14% 84%, 18% 84%, 18% 66%, 16% 68%, 14% 66%, 13% 63%, 12% 54%, 12% 44%, 13% 35%, 14% 32%, 16% 30%, 18% 32%, 19% 35%, 20% 44%, 20% 54%, 19% 63%, 18% 66%, 18% 84%, 21% 81%, 24% 73%, 25% 67%, 26% 53%, 26% 45%, 25% 31%, 24% 25%, 21% 17%, 18% 14%, 14% 14%, 11% 17%, 8% 25%, 7% 31%, 6% 45%);
+    background: radial-gradient(rgba(0, 209, 150, 1), rgba(225, 225, 225, 1));
+    filter: blur(15px);
+    transform: translate(-1%, 0%);
+}
+
+.body_inside .zero_shadow {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left 0%;
+    clip-path: polygon(7% 56%, 8% 70%, 9% 76%, 12% 84%, 15% 87%, 19% 87%, 19% 69%, 17% 72%, 15% 69%, 14% 66%, 13% 57%, 13% 47%, 14% 38%, 15% 35%, 17% 33%, 19% 35%, 20% 38%, 21% 47%, 21% 57%, 20% 66%, 19% 69%, 19% 87%, 22% 84%, 25% 76%, 26% 70%, 27% 56%, 27% 48%, 26% 34%, 25% 28%, 22% 20%, 19% 17%, 15% 17%, 12% 20%, 9% 28%, 8% 34%, 7% 48%);
+    background: radial-gradient(rgba(115, 113, 255, .5), rgba(7, 134, 255, .5));
+    filter: blur(25px);
+    transform: translate(-1%, 0%);
+}
+
+.body_inside .zero_background {
+    height: 50%;
+    width: 50%;
+    top: 0%;
+    left 0%;
+    border-radius: 50%;
+    background: radial-gradient(rgba(115, 113, 255, .5), rgba(7, 134, 255, .5));
+    border-style: none;
+    filter: blur(20px);
+    transform: translate(-18%, 50%);
+}
+
+.body_inside .one {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left 0%;
+    clip-path: polygon(12% 50%, 12% 78%, 13% 82%, 14% 83%, 15% 84%, 17% 84%, 18% 83%, 19% 82%, 20% 78%, 20% 20%, 19% 16%, 18% 15%, 17% 14%, 15% 14%, 13% 15%, 11% 17%, 9% 19%, 7% 22%, 6.5% 24%, 6% 26%, 7% 32%, 8% 33%, 9% 34%, 12% 32%);
+    background: radial-gradient(rgba(237, 255, 0, 1), rgba(255, 255, 0, 1));
+    filter: blur(15px);
+}
+
+.body_inside .one_shadow {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left 0%;
+    clip-path: polygon(13% 53%, 13% 81%, 14% 83%, 15% 86%, 16% 87%, 18% 87%, 19% 86%, 20% 85%, 21% 81%, 21% 23%, 20% 19%, 19% 18%, 18% 17%, 16% 17%, 14% 18%, 12% 20%, 10% 22%, 8% 25%, 7.5% 27%, 7% 29%, 8% 35%, 9% 36%, 10% 37%, 13% 35%);
+    background: radial-gradient(rgba(237, 255, 0, .5), rgba(255, 255, 0, .5));
+    filter: blur(25px);
+}
+
+.body_inside .one_background {
+    height: 50%;
+    width: 50%;
+    top: 0%;
+    left 0%;
+    border-radius: 50%;
+    background: radial-gradient(rgba(237, 255, 0, .5), rgba(255, 255, 0, .5));
+    border-style: none;
+    filter: blur(20px);
+    transform: translate(-18%, 50%);
+}
+
+.body_inside .two {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left 0%;
+    clip-path: polygon(15% 47.5%, 14% 50.5%, 13% 53.5%, 12% 56.5%, 11% 59.5%, 10% 62.5%, 9% 65.5%, 8% 68.5%, 7% 71.5%, 6% 76%, 7% 80.5%, 9% 83.5%, 23% 83.5%, 25% 80.5%, 26% 76%, 25% 71.5%, 23% 68.5%, 17% 68.5%, 18% 65.5%, 19% 62.5%, 20% 59.5%, 21% 56.5%, 24% 44.5%, 25% 38.5%, 26% 32.5%, 25% 23.5%, 24% 20.5%, 21% 16%, 19% 14.5%, 17% 14.5%, 14% 16%, 13% 17.5%, 11% 20.5%, 9% 23.5%, 7% 26.5%, 6% 29.5%, 7% 35.5%, 9% 38.5%, 10% 38.5%, 16% 29.5%, 17% 29.5%, 18% 32.5%, 18% 35.5%);
+    background: radial-gradient(rgba(0, 255, 0, 1), rgba(100, 255, 0, 1));
+    filter: blur(15px);
+}
+
+.body_inside .two_shadow {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left 0%;
+    clip-path: polygon(15% 47.5%, 14% 50.5%, 13% 53.5%, 12% 56.5%, 11% 59.5%, 10% 62.5%, 9% 65.5%, 8% 68.5%, 7% 71.5%, 6% 76%, 7% 80.5%, 9% 83.5%, 23% 83.5%, 25% 80.5%, 26% 76%, 25% 71.5%, 23% 68.5%, 17% 68.5%, 18% 65.5%, 19% 62.5%, 20% 59.5%, 21% 56.5%, 24% 44.5%, 25% 38.5%, 26% 32.5%, 25% 23.5%, 24% 20.5%, 21% 16%, 19% 14.5%, 17% 14.5%, 14% 16%, 13% 17.5%, 11% 20.5%, 9% 23.5%, 7% 26.5%, 6% 29.5%, 7% 35.5%, 9% 38.5%, 10% 38.5%, 16% 29.5%, 17% 29.5%, 18% 32.5%, 18% 35.5%);
+    background: radial-gradient(rgba(0, 255, 0, .5), rgba(100, 255, 0, .5));
+    filter: blur(25px);
+    transform: translate(1%, 3%);
+}
+
+.body_inside .two_background {
+    height: 50%;
+    width: 50%;
+    top: 0%;
+    left 0%;
+    border-radius: 50%;
+    background: radial-gradient(rgba(0, 255, 0, .5), rgba(100, 255, 0, .5));
+    border-style: none;
+    filter: blur(20px);
+    transform: translate(-18%, 50%);
+}
+
+.body_inside .three {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left 0%;
+    clip-path: polygon(15% 14%, 11% 17%, 7% 23%, 6% 26%, 7% 29%, 8% 32%, 9% 35%, 11% 35%, 13% 32%, 15% 29%, 17% 29%, 18% 32%, 19% 38%, 18% 41%, 17% 44%, 15% 44%, 15% 54%, 17% 54%, 18% 57%, 19% 60%, 18% 66%, 17% 69%, 15% 69%, 13% 66%, 11% 63%, 9% 63%, 8% 66%, 7% 69%, 6% 72%, 7% 75%, 11% 81%, 15% 84%, 17% 84%, 19% 81%, 21% 78%, 23% 75%, 25% 69%, 26% 63%, 25% 60%, 23% 57%, 23% 41%, 25% 38%, 26% 35%, 25% 29%, 23% 23%, 21% 20%, 19% 17%, 17% 14%);
+    background: radial-gradient(rgba(255, 150, 230, 1), rgba(255, 150, 118, 1));
+    filter: blur(15px);
+}
+
+.body_inside .three_shadow {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left 0%;
+    clip-path: polygon(13% 53%, 13% 81%, 14% 83%, 15% 86%, 16% 87%, 18% 87%, 19% 86%, 20% 85%, 21% 81%, 21% 23%, 20% 19%, 19% 18%, 18% 17%, 16% 17%, 14% 18%, 12% 20%, 10% 22%, 8% 25%, 7.5% 27%, 7% 29%, 8% 35%, 9% 36%, 10% 37%, 13% 35%);
+    background: radial-gradient(rgba(255, 150, 230, .5), rgba(255, 150, 118, .5));
+    filter: blur(25px);
+    transform: translate(0%, -100%);
+}
+
+.body_inside .three_background {
+    height: 50%;
+    width: 50%;
+    top: 0%;
+    left 0%;
+    border-radius: 50%;
+    background: radial-gradient(rgba(255, 150, 230, .5), rgba(255, 150, 118, .5));
+    border-style: none;
+    filter: blur(20px);
+    transform: translate(-18%, -150%);
+}
+
+/*//INPUT*/
+/*//#//ALL*/
+#line_i_c {
+    height: 0.5%;
+    width: 3.5%;
+    top: 42.25%;
+    left: 32.5%;
+    position: absolute;
+}
+
+/*//#//INPUT 1*/
+/*//#INPUT 1 INPUT*/
+#i1 {
+    height: 4.7%;
+    width: 2.1%;
+    top: 13.15%;
+    left: 14%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#INPUT 1 LINE*/
+#line_i1_c {
+    height: 0.5%;
+    width: 2.65%;
+    top: 15.25%;
+    left: 30.1%;
+    position: absolute;
+}
+
+#line_i1_c_1 {
+    height: 27%;
+    width: 0.25%;
+    top: 15.25%;
+    left: 32.5%;
+    position: absolute;
+}
+
+/*//#//INPUT 2*/
+/*//#INPUT 2 INPUT*/
+#i2 {
+    height: 4.7%;
+    width: 2.1%;
+    top: 22.15%;
+    left: 28%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#INPUT 2 LINE*/
+#line_i2_c {
+    height: 0.5%;
+    width: 2.65%;
+    top: 24.25%;
+    left: 30.1%;
+    position: absolute;
+}
+
+#line_i2_c_1 {
+    height: 18%;
+    width: 0.25%;
+    top: 24.25%;
+    left: 32.5%;
+    position: absolute;
+}
+
+/*//#//INPUT 3*/
+/*//#INPUT 3 INPUT*/
+#i3 {
+    height: 4.7%;
+    width: 2.1%;
+    top: 31.15%;
+    left: 28%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#INPUT 3 LINE*/
+#line_i3_c {
+    height: 0.5%;
+    width: 2.65%;
+    top: 33.25%;
+    left: 30.1%;
+    position: absolute;
+}
+
+#line_i3_c_1 {
+    height: 9%;
+    width: 0.25%;
+    top: 33.25%;
+    left: 32.5%;
+    position: absolute;
+}
+
+/*//#//INPUT 4*/
+/*//#INPUT 4 INPUT*/
+#i4 {
+    height: 4.7%;
+    width: 2.1%;
+    top: 40.15%;
+    left: 28%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#INPUT 4 LINE*/
+#line_i4_c {
+    height: 0.5%;
+    width: 5.9%;
+    top: 42.25%;
+    left: 30.1%;
+    position: absolute;
+}
+
+/*//#//INPUT 5*/
+/*//#INPUT 5 INPUT*/
+#i5 {
+    height: 4.7%;
+    width: 2.1%;
+    top: 49.15%;
+    left: 28%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#INPUT 5 LINE*/
+#line_i5_c {
+    height: 0.5%;
+    width: 2.65%;
+    top: 51.25%;
+    left: 30.1%;
+    position: absolute;
+}
+
+#line_i5_c_1 {
+    height: 9%;
+    width: 0.25%;
+    top: 42.25%;
+    left: 32.5%;
+    position: absolute;
+}
+
+/*//#//INPUT 6*/
+/*//#INPUT 6 INPUT*/
+#i6 {
+    height: 4.7%;
+    width: 2.1%;
+    top: 58.15%;
+    left: 28%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#INPUT 6 LINE*/
+#line_i6_c {
+    height: 0.5%;
+    width: 2.65%;
+    top: 60.25%;
+    left: 30.1%;
+    position: absolute;
+}
+
+#line_i6_c_1 {
+    height: 18%;
+    width: 0.25%;
+    top: 42.25%;
+    left: 32.5%;
+    position: absolute;
+}
+
+/*//#//INPUT 7*/
+/*//#INPUT 7 INPUT*/
+#i7 {
+    height: 4.7%;
+    width: 2.1%;
+    top: 67.15%;
+    left: 28%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#INPUT 7 LINE*/
+#line_i7_c {
+    height: 0.5%;
+    width: 2.65%;
+    top: 69.25%;
+    left: 30.1%;
+    position: absolute;
+}
+
+#line_i7_c_1 {
+    height: 27%;
+    width: 0.25%;
+    top: 42.25%;
+    left: 32.5%;
+    position: absolute;
+}
+
+/*//#//INPUT 8*/
+/*//#INPUT 8 INPUT*/
+#i8 {
+    height: 4.7%;
+    width: 2.1%;
+    top: 76.15%;
+    left: 28%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#INPUT 8 LINE*/
+#line_i8_c {
+    height: 0.5%;
+    width: 2.65%;
+    top: 78.25%;
+    left: 30.1%;
+    position: absolute;
+}
+
+#line_i8_c_1 {
+    height: 36%;
+    width: 0.25%;
+    top: 42.25%;
+    left: 32.5%;
+    position: absolute;
+}
+
+/*//#//INPUT 9*/
+/*//#INPUT 9 INPUT*/
+#i9 {
+    height: 4.7%;
+    width: 2.1%;
+    top: 85.15%;
+    left: 28%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#INPUT 9 LINE*/
+#line_i9_c {
+    height: 0.5%;
+    width: 2.65%;
+    top: 87.25%;
+    left: 30.1%;
+    position: absolute;
+}
+
+#line_i9_c_1 {
+    height: 45%;
+    width: 0.25%;
+    top: 42.25%;
+    left: 32.5%;
+    position: absolute;
+}
+
+/*//OUTPUT*/
+/*//#//ALL*/
+#line_c_o {
+    height: 0.5%;
+    width: 3.75%;
+    top: 42.25%;
+    left: 54.375%;
+    position: absolute;
+}
+
+/*//#//OUTPUT 1*/
+/*//#OUTPUT 1 OUTPUT*/
+#o1 {
+    height: 6.5%;
+    width: 3%;
+    top: 12.25%;
+    left: 61%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#OUTPUT 1 LINE*/
+#line_c_o1 {
+    height: 0.5%;
+    width: 3.5%;
+    top: 15.25%;
+    left: 57.875%;
+    position: absolute;
+}
+
+#line_c_o1_1 {
+    height: 27%;
+    width: 0.25%;
+    top: 15.5%;
+    left: 57.875%;
+    position: absolute;
+}
+
+/*//#//OUTPUT 2*/
+/*//#OUTPUT 2 OUTPUT*/
+#o2 {
+    height: 6.5%;
+    width: 3%;
+    top: 21.25%;
+    left: 61%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#OUTPUT 2 LINE*/
+#line_c_o2 {
+    height: 0.5%;
+    width: 3.5%;
+    top: 24.25%;
+    left: 57.875%;
+    position: absolute;
+}
+
+#line_c_o2_1 {
+    height: 18%;
+    width: 0.25%;
+    top: 24.25%;
+    left: 57.875%;
+    position: absolute;
+
+}
+
+/*//#//OUTPUT 3*/
+/*//#OUTPUT 3 OUTPUT*/
+#o3 {
+    height: 6.5%;
+    width: 3%;
+    top: 30.25%;
+    left: 61%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#OUTPUT 3 LINE*/
+#line_c_o3 {
+    height: 0.5%;
+    width: 3.5%;
+    top: 33.25%;
+    left: 57.875%;
+    position: absolute;
+}
+
+#line_c_o3_1 {
+    height: 9%;
+    width: 0.25%;
+    top: 33.5%;
+    left: 57.875%;
+    position: absolute;
+}
+
+/*//#//OUTPUT 4*/
+/*//#OUTPUT 4 OUTPUT*/
+#o4 {
+    height: 6.5%;
+    width: 3%;
+    top: 39.25%;
+    left: 61%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#OUTPUT 4 LINE*/
+#line_c_o4 {
+    height: 0.5%;
+    width: 7%;
+    top: 42.25%;
+    left: 54.375%;
+    position: absolute;
+}
+
+/*//#//OUTPUT 5*/
+/*//#OUTPUT 5 OUTPUT*/
+#o5 {
+    height: 6.5%;
+    width: 3%;
+    top: 48.25%;
+    left: 61%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#OUTPUT 5 LINE*/
+#line_c_o5 {
+    height: 0.5%;
+    width: 3.5%;
+    top: 51.25%;
+    left: 57.875%;
+    position: absolute;
+}
+
+#line_c_o5_1 {
+    height: 9%;
+    width: 0.25%;
+    top: 42.25%;
+    left: 57.875%;
+    position: absolute;
+}
+
+/*//#//OUTPUT 6*/
+/*//#OUTPUT 6 OUTPUT*/
+#o6 {
+    height: 6.5%;
+    width: 3%;
+    top: 57.25%;
+    left: 61%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#OUTPUT 6 LINE*/
+
+#line_c_o6 {
+    height: 0.5%;
+    width: 3.5%;
+    top: 60.25%;
+    left: 57.875%;
+    position: absolute;
+}
+
+#line_c_o6_1 {
+    height: 18%;
+    width: 0.25%;
+    top: 42.25%;
+    left: 57.875%;
+    position: absolute;
+}
+
+/*//#//OUTPUT 7*/
+/*//#OUTPUT 7 OUTPUT*/
+#o7 {
+    height: 6.5%;
+    width: 3%;
+    top: 66.25%;
+    left: 61%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#OUTPUT 7 LINE*/
+#line_c_o7 {
+    height: 0.5%;
+    width: 3.5%;
+    top: 69.25%;
+    left: 57.875%;
+    position: absolute;
+}
+
+#line_c_o7_1 {
+    height: 27%;
+    width: 0.25%;
+    top: 42.25%;
+    left: 57.875%;
+    position: absolute;
+}
+
+/*//#//OUTPUT 8*/
+/*//#OUTPUT 8 OUTPUT*/
+#o8 {
+    height: 6.5%;
+    width: 3%;
+    top: 75.25%;
+    left: 61%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#OUTPUT 8 LINE*/
+#line_c_o8 {
+    height: 0.5%;
+    width: 3.5%;
+    top: 78.25%;
+    left: 57.875%;
+    position: absolute;
+}
+
+#line_c_o8_1 {
+    height: 36%;
+    width: 0.25%;
+    top: 42.25%;
+    left: 57.875%;
+    position: absolute;
+
+}
+
+/*//#//OUTPUT 9*/
+/*//#OUTPUT 9 OUTPUT*/
+#o9 {
+    height: 6.5%;
+    width: 3%;
+    top: 84.25%;
+    left: 61%;
+    margin: 0%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/*//#OUTPUT 9 LINE*/
+#line_c_o9 {
+    height: 0.5%;
+    width: 3.5%;
+    top: 87.25%;
+    left: 57.875%;
+    position: absolute;
+}
+
+#line_c_o9_1 {
+    height: 45%;
+    width: 0.25%;
+    top: 42.25%;
+    left: 57.875%;
+    position: absolute;
+
+}
+
